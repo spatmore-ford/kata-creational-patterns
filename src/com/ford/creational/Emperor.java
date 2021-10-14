@@ -14,7 +14,7 @@ public class Emperor {
 
     public void sendEmissary(RoyalEmissary royalEmissary) throws InterruptedException {
         // it takes time to travel between kingdoms
-        Thread.sleep(5000);
+        Thread.sleep(200);
 
         String message = royalEmissary.deliverMessage(seal);
         System.out.println(message);
