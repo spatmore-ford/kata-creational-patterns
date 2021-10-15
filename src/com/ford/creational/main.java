@@ -11,6 +11,7 @@ public class main {
         Embassy embassy = new Embassy();
 
         embassy.sendMessageTo(Emperors.empressJi.getName(), "I am a Fish");
+        // Add further messages here
     }
 
     private static void timed(Runnable runnable) {

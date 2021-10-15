@@ -13,7 +13,7 @@ public class RoyalEmissary {
         this.recipient = recipient;
     }
 
-    public String deliverMessage(EmperorsSeal seal) {
+    public String deliverMessage(EmperorsSeal seal) throws InterruptedException {
         if (seal.name().equals(recipient)) {
             String message = this.message.getMessage();
             System.out.println("Message delivered");
